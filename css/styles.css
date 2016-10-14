@@ -1,0 +1,50 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav ul li {
+  float: left;
+  padding-left: 14px;
+  padding-right: 14px;
+  border-right: 2px solid black;
+  width: 100px;
+}
+
+.nav ul li a {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.nav ul li a:link, .nav ul li a:visited {
+  background-color: gray;
+}
+
+.nav ul li a:hover {
+  background-color: black;
+}
+
+.nav ul li a:active {
+  background-color: brown;
+}
+
+#nav1 {
+  border-left: 2px solid black;
+}
+
+.nav ul li a.currentpage {
+  background-color: lightgray;
+}
