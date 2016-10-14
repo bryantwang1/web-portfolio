@@ -5,11 +5,14 @@ a {
 
 .nav {
   text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
 }
 
 .nav ul {
   display: inline-block;
   list-style: none;
+  padding: 0px;
 }
 
 .nav ul li {
