@@ -20,6 +20,19 @@ p {
   margin-right: 4%;
 }
 
+#introPar {
+  text-align: center;
+}
+
+#introPar img {
+  padding-top: 20px;
+}
+
+#introCap {
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+
 ul {
   margin-left: 4%;
   list-style: square;
@@ -31,7 +44,19 @@ strong {
 
 a {
   text-decoration: none;
-  color: white;
+  font-weight: 700;
+}
+
+a:link, a:visited {
+  color: #ff6600;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: purple;
 }
 
 .nav {
@@ -64,6 +89,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 4px;
+  color: white;
 }
 
 .nav ul li a:link, .nav ul li a:visited {
@@ -88,22 +114,13 @@ a {
   font-weight: normal;
 }
 
-.portfolio a {
-  font-weight: 500;
-}
-
 .portfolio li a {
   font-weight: 900;
 }
 
-.portfolio a:link, .portfolio a:visited {
-  color: darkorange;
-}
-
-.portfolio a:hover {
-  color: red;
-}
-
-.portfolio a:active {
-  color: purple;
+/* A class created solely for demonstrating the use of a span */
+.spanDemonstrator {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 18px;
 }
