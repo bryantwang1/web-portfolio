@@ -89,11 +89,15 @@ a {
 }
 
 .portfolio a {
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.portfolio li a {
+  font-weight: 900;
 }
 
 .portfolio a:link, .portfolio a:visited {
-  color: orange;
+  color: darkorange;
 }
 
 .portfolio a:hover {
