@@ -11,14 +11,28 @@ h1 {
   font-weight: bolder;
 }
 
+h2 {
+  margin-left: 3%;
+  font-family: sans-serif;
+}
+
 h6 {
   margin-left: 3%;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: underline;
 }
 
 p {
   margin-left: 4%;
   margin-right: 4%;
+}
+
+.box {
+  border: 2px solid lightblue;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 #introPar {
@@ -69,6 +83,7 @@ a:active {
   text-align: center;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+  margin-bottom: 3%
 }
 
 .nav ul {
@@ -127,8 +142,13 @@ a:active {
   line-height: 1.1;
 }
 
-.portfolio li {
-  line-height: 0.1;
+.portfolio ol li {
+  line-height: 0.9;
+}
+
+.portfolio ul li {
+  line-height: 1.2;
+  padding-bottom: 5px;
 }
 
 .portfolio p {
