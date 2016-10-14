@@ -1,8 +1,9 @@
 body {
-  background: linear-gradient(to bottom, white, rgba(131, 171, 175, 0.7));
+  background:  url(../img/seigaiha.png), linear-gradient(to bottom, white, rgba(131, 171, 175, 0.9));
   height: 100%;
   background-attachment: fixed;
 }
+/* Background image from subtlepatterns.com, made by Olga Libby */
 
 h1 {
   text-align: center;
@@ -112,6 +113,21 @@ a:active {
   background-color: lightgray;
   color: gray;
   font-weight: normal;
+}
+
+.portfolio ul {
+  padding: 14px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 1.1;
+}
+
+.portfolio li {
+  line-height: 0.1;
+}
+
+.portfolio p {
+  padding-bottom: 12px;
 }
 
 .portfolio li a {
