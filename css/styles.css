@@ -171,3 +171,16 @@ a:active {
     width: 90vw;
   }
 }
+
+@media screen and (max-width: 485px) {
+  .nav ul li {
+    float: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-right: 0px;
+  }
+
+  #nav1 {
+    border-left: 0px;
+  }
+}
