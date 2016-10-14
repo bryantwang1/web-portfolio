@@ -39,6 +39,11 @@ ul {
   list-style: square;
 }
 
+ol {
+  margin-left: 4%;
+  list-style: lower-greek;
+}
+
 strong {
   font-size: 110%;
 }
@@ -115,7 +120,7 @@ a:active {
   font-weight: normal;
 }
 
-.portfolio ul {
+.portfolio ul, .portfolio ol {
   padding: 14px;
   padding-top: 0px;
   padding-bottom: 0px;
