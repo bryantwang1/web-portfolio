@@ -11,6 +11,7 @@
 * _Or, open any file in a text editor or Atom or any other program that can edit html and css files_
 
 ### See the page here: https://bryantwang1.github.io/web-portfolio
+#### Also checkout the experimental branch to see a different look.
 
 ### License
 
