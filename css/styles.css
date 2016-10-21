@@ -5,7 +5,20 @@ body {
 }
 /* Background image from subtlepatterns.com, made by Olga Libby */
 
+.custom-container {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  background-color: white;
+}
+
+#porfolio-flex {
+  display: inline-flex;
+}
+
 h1 {
+  padding-top: 7%;
   text-align: center;
   font-family: sans-serif;
   font-weight: bolder;
@@ -23,6 +36,11 @@ h6 {
   text-decoration: underline;
 }
 
+.page-header-style {
+  background-color: rgba(61, 69, 104, 0.9);
+  width: inherit;
+}
+
 p {
   margin-top: 2%;
   font-size: 16px;
@@ -32,9 +50,8 @@ p {
 
 .box {
   border: 2px solid lightblue;
-  border-radius: 10px;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin: 2%;
+  width: 85%;
 }
 
 #introPar {
@@ -103,7 +120,6 @@ a:active {
   float: left;
   padding-left: 14px;
   padding-right: 14px;
-  border-right: 2px solid black;
   width: 120px;
 }
 
@@ -118,23 +134,18 @@ a:active {
 }
 
 .customnav ul li a:link, .customnav ul li a:visited {
-  background-color: gray;
+
 }
 
-.customnav ul li a:hover {
-  background-color: black;
-}
-
-.customnav ul li a:active {
-  background-color: brown;
+.customnav ul li a:hover, .customnav ul li a:active {
+  color: lightblue;
 }
 
 #nav1 {
-  border-left: 2px solid black;
+
 }
 
 .customnav ul li a.currentpage {
-  background-color: lightgray;
   color: gray;
   font-weight: normal;
 }
@@ -174,6 +185,10 @@ a:active {
   #introPar img {
     width: 90vw;
   }
+
+  .custom-container {
+    width: 90vw;
+  }
 }
 
 @media screen and (max-width: 485px) {
@@ -181,10 +196,6 @@ a:active {
     float: none;
     padding-top: 3px;
     padding-bottom: 3px;
-    border-right: 0px;
   }
 
-  #nav1 {
-    border-left: 0px;
-  }
 }
