@@ -18,12 +18,14 @@ h2 {
 
 h6 {
   margin-left: 3%;
-  font-size: 15px;
+  font-size: 18px;
   font-family: sans-serif;
   text-decoration: underline;
 }
 
 p {
+  margin-top: 2%;
+  font-size: 16px;
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -64,11 +66,14 @@ strong {
 
 a {
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 a:link, a:visited {
   color: #ff6600;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
@@ -79,14 +84,13 @@ a:active {
   color: purple;
 }
 
-.nav {
+.customnav {
   text-align: center;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  margin-bottom: 3%
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
-.nav ul {
+.customnav ul {
   display: inline-block;
   list-style: none;
   padding: 0px;
@@ -95,7 +99,7 @@ a:active {
   margin-left: 0%;
 }
 
-.nav ul li {
+.customnav ul li {
   float: left;
   padding-left: 14px;
   padding-right: 14px;
@@ -103,7 +107,7 @@ a:active {
   width: 120px;
 }
 
-.nav ul li a {
+.customnav ul li a {
   margin-left: 5px;
   margin-right: 5px;
   padding: 2px;
@@ -113,15 +117,15 @@ a:active {
   color: white;
 }
 
-.nav ul li a:link, .nav ul li a:visited {
+.customnav ul li a:link, .customnav ul li a:visited {
   background-color: gray;
 }
 
-.nav ul li a:hover {
+.customnav ul li a:hover {
   background-color: black;
 }
 
-.nav ul li a:active {
+.customnav ul li a:active {
   background-color: brown;
 }
 
@@ -129,7 +133,7 @@ a:active {
   border-left: 2px solid black;
 }
 
-.nav ul li a.currentpage {
+.customnav ul li a.currentpage {
   background-color: lightgray;
   color: gray;
   font-weight: normal;
@@ -173,7 +177,7 @@ a:active {
 }
 
 @media screen and (max-width: 485px) {
-  .nav ul li {
+  .customnav ul li {
     float: none;
     padding-top: 3px;
     padding-bottom: 3px;
