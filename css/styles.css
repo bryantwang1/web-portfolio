@@ -1,7 +1,18 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
 body {
-  background:  url(../img/seigaiha.png), linear-gradient(to bottom, white, rgba(131, 171, 175, 0.9));
+  background:  url(../img/seigaiha.png), linear-gradient(to bottom, rgba(131, 171, 175, 0.1), rgba(131, 171, 175, 0.9));
   height: 100%;
   background-attachment: fixed;
+  text-align: center;
 }
 /* Background image from subtlepatterns.com, made by Olga Libby */
 
@@ -11,6 +22,7 @@ body {
   flex-direction: column;
   width: 900px;
   background-color: white;
+  text-align: left;
 }
 
 #porfolio-flex {
@@ -49,9 +61,18 @@ p {
 }
 
 .box {
-  border: 2px solid lightblue;
+  border: 2px solid rgba(61, 69, 104, 0.3);
   margin: 2%;
   width: 85%;
+  background-color: rgba(223, 225, 236, 0.5);
+}
+
+#left-box {
+  margin-right: 1%;
+}
+
+#right-box {
+  margin-left: 1%;
 }
 
 #introPar {
@@ -191,7 +212,7 @@ a:active {
   }
 }
 
-@media screen and (max-width: 485px) {
+@media screen and (max-width: 490px) {
   .customnav ul li {
     float: none;
     padding-top: 3px;
